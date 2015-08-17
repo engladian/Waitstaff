@@ -1,0 +1,121 @@
+﻿<html>
+<head>
+    <title>Mad Libs</title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/Style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container" ng-app="">
+        <div class="row" style="text-align: center; height: 100px; margin-bottom: 10px; margin-top: 10px;">
+            <h1 style="font-size: 70px;">Waitstaff Calculator</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-5 col-sm-offset-1 largebox">
+                <div class="row boxheader">
+                    Enter the meal details
+                </div>
+                <div class="row" style="padding-top:20px;">
+                    <div class="col-sm-6 textboxlabel">Base Meal Price: $</div>
+                    <div class="col-sm-6">
+                        <input type="text" class="textbox3" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 textboxlabel">
+                        Tax Rate: %
+                    </div>
+                    <div class="col-sm-6">
+                        <input type="text" class="textbox1" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 textboxlabel">
+                        Tip Percentage: %
+                    </div>
+                    <div class="col-sm-6">
+                        <input type="text" class="textbox1" />
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 50px; padding-left: 120px; padding-right: 120px;">
+                    <div class="col-sm-6">
+                        <input type="submit" class="btn btn-lg" value="Submit">
+                    </div>
+                    <div class="col-sm-6">
+                        <input type="submit" class="btn btn-lg" value="Cancel">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-sm-offset-1">
+                <div class="row smallbox">
+                    <div class="row boxheader">
+                        Customer Charges
+                    </div>
+                    <div class="row" style="margin-top: 20px;">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-4 totalboxtext" style="text-align: right;">
+                            Subtotal:
+                        </div>
+                        <div class="col-sm-3 totalboxtext">
+                            0000
+                        </div>
+                        <div class="col-sm-4"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-4 totalboxtext" style="text-align: right;">
+                            Tip:
+                        </div>
+                        <div class="col-sm-3 totalboxtext">
+                            0000
+                        </div>
+                        <div class="col-sm-4"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-3 totalboxtext" style="padding-top:5px;text-align: right; border-top: 2px solid black;">
+                            Total:
+                        </div>
+                        <div class="col-sm-3 totalboxtext" style="padding-top:5px;border-top: 2px solid black;">
+                            0000
+                        </div>
+                        <div class="col-sm-4"></div>
+                    </div>
+                </div>
+                <div class="row smallbox" style="margin-top: 40px">
+                    <div class="row boxheader">My Earnings Info</div>
+                    <div class="row" style="margin-top: 20px;">
+                        <div class="col-sm-8 totalboxtext" style="text-align: right;">
+                            Tip Total:
+                        </div>
+                        <div class="col-sm-4 totalboxtext">
+                            0000
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-8 totalboxtext" style="text-align: right;">
+                            Meal Count:
+                        </div>
+                        <div class="col-sm-4 totalboxtext">
+                            0000
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-8 totalboxtext" style="text-align: right;">
+                            Average Tip Per Meal:
+                        </div>
+                        <div class="col-sm-4 totalboxtext">
+                            0000
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1 col-sm-offset-11" style="margin-top:10px">
+                <input type="submit" class="btn btn-lg" value="reset">
+            </div>
+        </div>
+    </div>
+    <script src="https://code.angularjs.org/1.3.10/angular.js"></script>
+</body>
+</html>
