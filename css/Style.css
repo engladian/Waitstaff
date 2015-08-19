@@ -10,6 +10,13 @@
     padding-right: 0;
 }
 
+.mainheader{
+    text-align: center; 
+    height: 100px; 
+    margin-bottom: 10px; 
+    margin-top: 10px;
+}
+
 .boxheader {
     margin-left: 0;
     margin-right: 0;
@@ -29,10 +36,34 @@
     padding-left: 10px;
 }
 
-.totalboxtext {
+.totboxtxtleft {
     margin: 5px auto;
     height: 30px;
     font-size: 20px;
+    text-align: right;
+}
+
+.totboxtxtright {
+    margin: 5px auto;
+    height: 30px;
+    font-size: 20px;
+}
+
+.totboxtxtrightbtm {
+    padding-top:5px; 
+    border-top: 2px solid black;
+    margin: 5px auto;
+    height: 30px;
+    font-size: 20px;
+}
+
+.totboxtxtleftbtm {
+    padding-top:5px; 
+    border-top: 2px solid black;
+    margin: 5px auto;
+    height: 30px;
+    font-size: 20px;
+    text-align: right;
 }
 
 .textbox1 {
@@ -56,3 +87,12 @@
     padding-left: 10px;
     border: 3px solid black;
 }
+
+.btnsrow{
+    margin-top: 50px; 
+    padding-left: 150px; 
+    padding-right: 150px;
+}    
+    
+    
+
